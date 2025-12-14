@@ -1,0 +1,10 @@
+{
+  "name": "geek-audiophile-shop",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "server": "cd backend && npm start",
+    "client": "cd frontend && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  }
+}
